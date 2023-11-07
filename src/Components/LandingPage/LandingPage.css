@@ -1,0 +1,25 @@
+.sec-1-container h1,
+.sec-2-text-container{
+    max-width: 450px;
+}
+.sec-1-container:first-child {
+    padding: 150px 0px 100px 0px;
+}
+.partner-logo-container img{
+    width: 60px;
+}
+.section-3 {
+    background-color: rgb(243, 243, 243);
+}
+.sub-sec-1-container {
+    background-color: rgb(243, 243, 243);
+}
+.testimonial-container {
+    max-width: 850px
+}
+.testimonial-txt{
+    color: rgb(125, 125, 125);
+    font-weight: 600;
+    word-spacing: .7rem;
+    max-width: 450px;
+}
