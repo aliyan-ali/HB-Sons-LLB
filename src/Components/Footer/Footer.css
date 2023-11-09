@@ -1,0 +1,44 @@
+.footer-ctonainer {
+    gap: 500px;
+}
+
+.footer-links-title {
+    margin-bottom: 30px;
+    color: rgb(8, 8, 8);
+}
+ul {
+    list-style: none;
+    padding: 0px 6px;
+}
+ul li {
+    margin: 8px 0px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+
+}
+.footer-img-container> img {
+    width: 200px;
+}
+
+
+.footer-img-container img {
+    cursor: pointer;
+}
+
+.footer-input {
+    border: 0px;
+    background-color: #ed1c2373;
+    color: rgb(51, 51, 51);
+    /* width: 250px; */
+    padding: 4px 5px;
+}
+
+.footer-input:active {
+    border: 0px;
+    outline: none;
+}
+.position-absolute {
+    right: 0px;
+}

@@ -1,5 +1,8 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom';
+
+
 
 function Navbar() {
   return (
@@ -10,9 +13,9 @@ function Navbar() {
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent container">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="#">
+          <Link class="navbar-brand" to="/">
             <img src="/assets/image 1.svg" alt="" srcset="" />
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -27,32 +30,30 @@ function Navbar() {
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-danger" aria-current="page" href="#">
+                <Link class="nav-link active text-danger" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link "
-                  href="#"
-                  tabindex="-1"
-                >
+                  to="/services"
+                  tabindex="-1">
                   Services
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link "
-                  href="#"
-                  tabindex="-1"
-                >
+                  to="/contectus"
+                  tabindex="-1">
                   Contect us
-                </a>
+                </Link>
               </li>
             </ul>
             <form class="d-flex">

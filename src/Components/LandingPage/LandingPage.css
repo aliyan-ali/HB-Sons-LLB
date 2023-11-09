@@ -23,3 +23,39 @@
     word-spacing: .7rem;
     max-width: 450px;
 }
+.font-weight {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+.dark {
+    color: rgb(125, 125, 125);
+    font-size: 1.4rem;
+}
+.btn-transition .btn-img {
+    transform: translateX(10px);
+    transition: transform 0.2s ease-in-out;
+}
+.btn-transition:hover .btn-img {
+    transform: translateX(20px);
+}
+
+
+.swiper {
+    margin: 100px auto;
+    width: 820px;
+    height: 420px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
